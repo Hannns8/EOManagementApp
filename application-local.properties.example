@@ -1,0 +1,5 @@
+# Salin menjadi application-local.properties di folder project.
+# Isi kredensial MySQL Anda pada salinan lokal yang diabaikan Git.
+spring.datasource.url=jdbc:mysql://localhost:3306/eo_management_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=
